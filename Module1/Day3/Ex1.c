@@ -5,7 +5,7 @@ void printNumbers(int n) {
         printf("%d", i);
     }
 }
-
+/*
 void printSpaces(int n) {
     for (int i = 1; i <= n; i++) {
         printf(" ");
@@ -17,7 +17,7 @@ void printReverseNumbers(int n) {
         printf("%d", i);
     }
 }
-
+*/
 int main() {
     int n;
 
@@ -26,10 +26,9 @@ int main() {
 
     for (int i = n; i >= 1; i--) {
         printNumbers(i);
-        printSpaces(2 * (n - i));
+       /* printSpaces(2 * (n - i));
         printReverseNumbers(i);
-        printf("\n");
+        printf("\n");*/
     }
-
     return 0;
 }
